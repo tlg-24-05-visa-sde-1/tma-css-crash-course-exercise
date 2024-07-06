@@ -1,70 +1,56 @@
-/* 
-TODO: Use a Type Selector to select the body elements and give them the following CSS Rule
-{
+
+body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
-*/
 
-/* 
-TODO: Use an ID Selector to select the element with the id name 'main-title' and give it the following CSS Rule
-{
+#main-title{
   color: #2c3e50;
   text-align: center;
 }
-*/
 
-/* 
-TODO: Use a Class Selector to select elements with the class name 'nav-item' and give them the following CSS Rule
-{
+.nav-item{
   display: inline-block;
   margin: 0 10px;
 }
-*/
 
-/* 
-TODO: Use a Class Selector to select elements with the class name 'content-section' and give them the following CSS Rule
-{
+.content-section{
   padding: 20px;
   border-bottom: 1px solid #ddd;
 }
-*/
 
-/* 
-TODO: Use an Attribute Selector to select disabled buttons and give them the following CSS Rule
-{
+/* TODO: Use an Attribute Selector to select disabled buttons and give them the following CSS Rule */
+
+button[disabled]{
   background-color: #e74c3c;
   color: #fff;
   cursor: not-allowed;
 }
-*/
 
-/*
-Use the Universal Selector to give all elements the following CSS Rule
-{
+/* Use the Universal Selector to give all elements the following CSS Rule */
+
+*{
   box-sizing: border-box;
 }
-*/
 
-/*
-Give all h2 elements and elements with the class name "section-title" the following CSS Rule
-{
+
+/* Give all h2 elements and elements with the class name "section-title" the following CSS Rule */
+
+h2, .section-title{
   color: #3498db;
 }
-*/
 
-/*
-Give all button elements and elements with the class name "action-button" the following CSS Rule
-{
+/* Give all button elements and elements with the class name "action-button" the following CSS Rule */
+
+button, .action-button{
   padding: 10px 20px;
   border: none;
   cursor: pointer;
 }
-*/
 
-/*
-(Bonus) give p elements that are children of elements with the class name "content-section" the following CSS Rule
-{
+/* (Bonus) give p elements that are children of elements with the class name "content-section" the following CSS Rule */
+
+.content-section p{
   color: #7f8c8d;
 }
-*/
+
